@@ -55,8 +55,10 @@ import {
   USDC_BNB,
   USDC_ETHEREUM_GNOSIS,
   USDC_MAINNET,
+  USDC_HARMONY,
   USDC_ON,
   USDT_BNB,
+  USDT_HARMONY,
   USDT_MAINNET,
   V2_SUPPORTED,
   V2PoolProvider,
@@ -2558,6 +2560,7 @@ describe('quote for other networks', () => {
     [ChainId.GNOSIS]: WBTC_GNOSIS,
     [ChainId.MOONBEAM]: WBTC_MOONBEAM,
     [ChainId.BNB]: USDC_BNB,
+    [ChainId.HARMONY]: USDC_HARMONY.
     [ChainId.AVALANCHE]: USDC_ON(ChainId.AVALANCHE),
     [ChainId.BASE]: USDC_ON(ChainId.BASE),
     [ChainId.BASE_GOERLI]: USDC_ON(ChainId.BASE_GOERLI),
@@ -2577,6 +2580,7 @@ describe('quote for other networks', () => {
     [ChainId.GNOSIS]: USDC_ETHEREUM_GNOSIS,
     [ChainId.MOONBEAM]: WBTC_MOONBEAM,
     [ChainId.BNB]: USDT_BNB,
+    [ChainId.HARMONY]: USDT_HARMONY.
     [ChainId.AVALANCHE]: DAI_ON(ChainId.AVALANCHE),
     [ChainId.BASE]: USDC_ON(ChainId.BASE),
     [ChainId.BASE_GOERLI]: USDC_ON(ChainId.BASE_GOERLI),

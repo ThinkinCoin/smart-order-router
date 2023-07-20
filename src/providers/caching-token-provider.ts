@@ -48,6 +48,12 @@ import {
   WBTC_OPTIMISM_GOERLI,
   WMATIC_POLYGON,
   WMATIC_POLYGON_MUMBAI,
+  BTC_HARMONY,
+  ETH_HARMONY,
+  NEURONS_HARMONY,
+  USDC_HARMONY,
+  USDT_HARMONY,
+  BUSD_HARMONY,
 } from './token-provider';
 
 // These tokens will added to the Token cache on initialization.
@@ -138,6 +144,16 @@ export const CACHE_SEED_TOKENS: {
     USDC: USDC_AVAX,
     DAI: DAI_AVAX,
     WAVAX: WRAPPED_NATIVE_CURRENCY[ChainId.AVALANCHE],
+  },
+  [ChainId.HARMONY]: {
+    BTC_HARMONY,
+    ETH_HARMONY,
+    NEURONS_HARMONY,
+    USDC_HARMONY,
+    USDT_HARMONY,
+    BUSD_HARMONY,
+    WONE: WRAPPED_NATIVE_CURRENCY[ChainId.HARMONY],
+
   },
   // Currently we do not have providers for Moonbeam mainnet or Gnosis testnet
 };

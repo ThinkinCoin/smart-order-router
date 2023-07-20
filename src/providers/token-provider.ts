@@ -472,6 +472,55 @@ export const WBTC_GNOSIS = new Token(
   'Wrapped BTC from Ethereum on Gnosis'
 );
 
+// HARMONY chain Tokens
+export const BTC_HARMONY = new Token(
+  ChainId.HARMONY,
+  '0x118f50d23810c5E09Ebffb42d7D3328dbF75C2c2',
+  18,
+  'BTCB',
+  'Binance BTC'
+);
+
+export const BUSD_HARMONY = new Token(
+  ChainId.HARMONY,
+  '0x1Aa1F7815103c0700b98f24138581b88d4cf9769',
+  18,
+  'BUSD',
+  'BUSD'
+);
+
+export const NEURONS_HARMONY = new Token(
+  ChainId.HARMONY,
+  '0xFb5e55b89dbeAF01797Be3F744bd556E4d9FB259',
+  18,
+  'NEURONS',
+  'Think in Coin'
+);
+
+export const ETH_HARMONY = new Token(
+  ChainId.HARMONY,
+  '0x4cC435d7b9557d54d6EF02d69Bbf72634905Bf11',
+  18,
+  'ETH',
+  'ETH'
+);
+
+export const USDC_HARMONY = new Token(
+  ChainId.HARMONY,
+  '0xBC594CABd205bD993e7FfA6F3e9ceA75c1110da5',
+  18,
+  'USDC',
+  'USDC'
+);
+
+export const USDT_HARMONY = new Token(
+  ChainId.HARMONY,
+  '0xF2732e8048f1a411C63e2df51d08f4f52E598005',
+  18,
+  'USDT',
+  'USDT'
+);
+
 // Moonbeam Tokens
 export const USDC_MOONBEAM = new Token(
   ChainId.MOONBEAM,

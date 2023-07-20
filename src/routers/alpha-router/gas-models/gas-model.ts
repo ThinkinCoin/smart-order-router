@@ -34,6 +34,9 @@ import {
   USDT_OPTIMISM,
   USDT_OPTIMISM_GOERLI,
   WBTC_GOERLI,
+  USDC_HARMONY,
+  USDT_HARMONY,
+  BUSD_HARMONY,
 } from '../../../providers/token-provider';
 import { IV2PoolProvider } from '../../../providers/v2/pool-provider';
 import { ArbitrumGasData, IL2GasDataProvider, OptimismGasData, } from '../../../providers/v3/gas-data-provider';
@@ -66,6 +69,7 @@ export const usdGasTokensByChain: { [chainId in ChainId]?: Token[] } = {
   [ChainId.MOONBEAM]: [USDC_MOONBEAM],
   [ChainId.BNB]: [USDT_BNB, USDC_BNB, DAI_BNB],
   [ChainId.AVALANCHE]: [DAI_AVAX, USDC_AVAX],
+  [ChainId.HARMONY]: [USDC_HARMONY, USDT_HARMONY, BUSD_HARMONY],
 };
 
 export type L1ToL2GasCosts = {
