@@ -1,9 +1,9 @@
 import { BigNumber } from '@ethersproject/bignumber';
 import { BaseProvider } from '@ethersproject/providers';
-import { Protocol, SwapRouter } from '@uniswap/router-sdk';
+import { Protocol, SwapRouter } from '@thinkincoin/router-sdk';
 import { Fraction, Percent, TradeType } from '@uniswap/sdk-core';
-import { Pair } from '@uniswap/v2-sdk';
-import { encodeSqrtRatioX96, Pool, Position } from '@uniswap/v3-sdk';
+import { Pair } from '@thinkincoin-libs/uniswap-v2-sdk';
+import { encodeSqrtRatioX96, Pool, Position } from '@thinkincoin-libs/uniswap-v3-sdk';
 import JSBI from 'jsbi';
 import _ from 'lodash';
 import sinon from 'sinon';

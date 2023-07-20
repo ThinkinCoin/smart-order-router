@@ -1,4 +1,4 @@
-import { Protocol } from '@uniswap/router-sdk';
+import { Protocol } from '@thinkincoin/router-sdk';
 import { ChainId, Token, TradeType } from '@uniswap/sdk-core';
 import _ from 'lodash';
 

@@ -1,6 +1,6 @@
-import { Protocol } from '@uniswap/router-sdk';
+import { Protocol } from '@thinkincoin/router-sdk';
 import {ChainId, Token, TradeType } from '@uniswap/sdk-core';
-import { FeeAmount } from '@uniswap/v3-sdk';
+import { FeeAmount } from '@thinkincoin-libs/uniswap-v3-sdk';
 import _ from 'lodash';
 
 import { ITokenListProvider, IV2SubgraphProvider, V2SubgraphPool, } from '../../../providers';

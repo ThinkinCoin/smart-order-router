@@ -1,8 +1,8 @@
 import { BigNumber } from '@ethersproject/bignumber';
-import { Protocol } from '@uniswap/router-sdk';
+import { Protocol } from '@thinkincoin/router-sdk';
 import { ChainId, Currency, CurrencyAmount, Token, TradeType } from '@uniswap/sdk-core';
-import { Pair } from '@uniswap/v2-sdk/dist/entities';
-import { FeeAmount, Pool } from '@uniswap/v3-sdk';
+import { Pair } from '@thinkincoin-libs/uniswap-v2-sdk/dist/entities';
+import { FeeAmount, Pool } from '@thinkincoin-libs/uniswap-v3-sdk';
 import _ from 'lodash';
 
 import { IV2PoolProvider } from '../providers';

@@ -4,7 +4,7 @@
  * @export
  * @interface IRouteCachingProvider
  */
-import { Protocol } from '@uniswap/router-sdk';
+import { Protocol } from '@thinkincoin/router-sdk';
 import { ChainId, Currency, CurrencyAmount, Token, TradeType } from '@uniswap/sdk-core';
 
 import { CacheMode } from './model';

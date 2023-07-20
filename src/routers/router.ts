@@ -4,7 +4,7 @@ import {
   MixedRouteSDK,
   Protocol,
   Trade,
-} from '@uniswap/router-sdk';
+} from '@thinkincoin/router-sdk';
 import {
   Currency,
   Fraction,
@@ -12,14 +12,14 @@ import {
   Token,
   TradeType,
 } from '@uniswap/sdk-core';
-import { SwapOptions as UniversalRouterSwapOptions } from '@uniswap/universal-router-sdk';
-import { Route as V2RouteRaw } from '@uniswap/v2-sdk';
+import { SwapOptions as UniversalRouterSwapOptions } from '@thinkincoin/universal-router-sdk';
+import { Route as V2RouteRaw } from '@thinkincoin-libs/uniswap-v2-sdk';
 import {
   Pool,
   Position,
   MethodParameters as SDKMethodParameters,
   Route as V3RouteRaw,
-} from '@uniswap/v3-sdk';
+} from '@thinkincoin-libs/uniswap-v3-sdk';
 
 import { SimulationStatus } from '../providers';
 import { CurrencyAmount } from '../util/amounts';
