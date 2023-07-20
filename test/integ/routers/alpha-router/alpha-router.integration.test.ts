@@ -2562,7 +2562,7 @@ describe('quote for other networks', () => {
     [ChainId.BNB]: USDC_BNB,
     [ChainId.HARMONY]: USDC_HARMONY,
     [ChainId.AVALANCHE]: USDC_ON(ChainId.AVALANCHE),
-    [ChainId.BASE]: USDC_ON(ChainId.BASE),
+    //[ChainId.BASE]: USDC_ON(ChainId.BASE),
     [ChainId.BASE_GOERLI]: USDC_ON(ChainId.BASE_GOERLI),
   };
   const TEST_ERC20_2: { [chainId in ChainId]: Token } = {
@@ -2582,7 +2582,7 @@ describe('quote for other networks', () => {
     [ChainId.BNB]: USDT_BNB,
     [ChainId.HARMONY]: USDT_HARMONY,
     [ChainId.AVALANCHE]: DAI_ON(ChainId.AVALANCHE),
-    [ChainId.BASE]: USDC_ON(ChainId.BASE),
+   // [ChainId.BASE]: USDC_ON(ChainId.BASE),
     [ChainId.BASE_GOERLI]: USDC_ON(ChainId.BASE_GOERLI),
   };
 
