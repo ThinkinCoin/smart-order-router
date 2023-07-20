@@ -41,8 +41,7 @@ const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   [ChainId.BNB]: [],
   [ChainId.HARMONY]: [],
   [ChainId.AVALANCHE]: [],
-  [ChainId.BASE_GOERLI]: [],
-  [ChainId.BASE]: []
+  [ChainId.BASE_GOERLI]: []
 };
 
 /**
