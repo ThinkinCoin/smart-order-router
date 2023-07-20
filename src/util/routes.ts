@@ -1,5 +1,5 @@
 import { Protocol } from '@thinkincoin/router-sdk';
-import { Percent } from '@uniswap/sdk-core';
+import { Percent } from '@thinkincoin/sdk-core';
 import { Pair } from '@thinkincoin-libs/uniswap-v2-sdk';
 import { Pool } from '@thinkincoin-libs/uniswap-v3-sdk';
 import _ from 'lodash';

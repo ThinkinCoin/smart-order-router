@@ -1,4 +1,4 @@
-import { Token } from '@uniswap/sdk-core';
+import { Token } from '@thinkincoin/sdk-core';
 import { Pair } from '@thinkincoin-libs/uniswap-v2-sdk';
 import { Pool } from '@thinkincoin-libs/uniswap-v3-sdk';
 

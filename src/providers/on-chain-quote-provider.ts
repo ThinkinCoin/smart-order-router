@@ -5,7 +5,7 @@ import {
   MixedRouteSDK,
   Protocol,
 } from '@thinkincoin/router-sdk';
-import { ChainId } from '@uniswap/sdk-core';
+import { ChainId } from '@thinkincoin/sdk-core';
 import { encodeRouteToPath } from '@thinkincoin-libs/uniswap-v3-sdk';
 import retry, { Options as RetryOptions } from 'async-retry';
 import _ from 'lodash';

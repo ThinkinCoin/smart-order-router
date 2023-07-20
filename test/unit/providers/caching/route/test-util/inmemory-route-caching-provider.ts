@@ -1,5 +1,5 @@
 import { Protocol } from '@thinkincoin/router-sdk';
-import { ChainId, Currency, CurrencyAmount, Token, TradeType } from '@uniswap/sdk-core';
+import { ChainId, Currency, CurrencyAmount, Token, TradeType } from '@thinkincoin/sdk-core';
 import { CachedRoutes, CacheMode, IRouteCachingProvider } from '../../../../../../src';
 
 export class InMemoryRouteCachingProvider extends IRouteCachingProvider {

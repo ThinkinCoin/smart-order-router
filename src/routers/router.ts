@@ -11,7 +11,7 @@ import {
   Percent,
   Token,
   TradeType,
-} from '@uniswap/sdk-core';
+} from '@thinkincoin/sdk-core';
 import { SwapOptions as UniversalRouterSwapOptions } from '@thinkincoin/universal-router-sdk';
 import { Route as V2RouteRaw } from '@thinkincoin-libs/uniswap-v2-sdk';
 import {

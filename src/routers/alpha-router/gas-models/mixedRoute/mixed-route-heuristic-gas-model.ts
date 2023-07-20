@@ -1,6 +1,6 @@
 import { BigNumber } from '@ethersproject/bignumber';
 import { partitionMixedRouteByProtocol } from '@thinkincoin/router-sdk';
-import { ChainId } from '@uniswap/sdk-core';
+import { ChainId } from '@thinkincoin/sdk-core';
 import { Pair } from '@thinkincoin-libs/uniswap-v2-sdk';
 import { Pool } from '@thinkincoin-libs/uniswap-v3-sdk';
 import JSBI from 'jsbi';

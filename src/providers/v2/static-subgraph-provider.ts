@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@uniswap/sdk-core';
+import { ChainId, Token } from '@thinkincoin/sdk-core';
 import { Pair } from '@thinkincoin-libs/uniswap-v2-sdk';
 import _ from 'lodash';
 

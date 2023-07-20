@@ -1,5 +1,5 @@
 import { BigNumber } from '@ethersproject/bignumber';
-import { ChainId, Token } from '@uniswap/sdk-core';
+import { ChainId, Token } from '@thinkincoin/sdk-core';
 
 import { Pool } from '@thinkincoin-libs/uniswap-v3-sdk';
 import { ProviderConfig } from '../../../providers/provider';

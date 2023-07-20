@@ -1,6 +1,6 @@
 import { BigNumber } from '@ethersproject/bignumber';
 import { Protocol } from '@thinkincoin/router-sdk';
-import { ChainId, TradeType } from '@uniswap/sdk-core';
+import { ChainId, TradeType } from '@thinkincoin/sdk-core';
 import { Pool } from '@thinkincoin-libs/uniswap-v3-sdk';
 import sinon from 'sinon';
 import { DAI_MAINNET, USDC_MAINNET, V3Route, V3RouteWithValidQuote } from '../../../../../../build/main';

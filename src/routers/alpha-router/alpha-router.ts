@@ -2,7 +2,7 @@ import { BigNumber } from '@ethersproject/bignumber';
 import { BaseProvider, JsonRpcProvider } from '@ethersproject/providers';
 import DEFAULT_TOKEN_LIST from '@thinkincoin-libs/default-token-list';
 import { Protocol, SwapRouter, Trade } from '@thinkincoin/router-sdk';
-import { ChainId, Currency, Fraction, Token, TradeType } from '@uniswap/sdk-core';
+import { ChainId, Currency, Fraction, Token, TradeType } from '@thinkincoin/sdk-core';
 import { TokenList } from '@uniswap/token-lists';
 import { Pool, Position, SqrtPriceMath, TickMath } from '@thinkincoin-libs/uniswap-v3-sdk';
 import retry from 'async-retry';

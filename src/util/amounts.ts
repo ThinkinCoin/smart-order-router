@@ -2,7 +2,7 @@ import { parseUnits } from '@ethersproject/units';
 import {
   Currency,
   CurrencyAmount as CurrencyAmountRaw,
-} from '@uniswap/sdk-core';
+} from '@thinkincoin/sdk-core';
 import { FeeAmount } from '@thinkincoin-libs/uniswap-v3-sdk';
 import JSBI from 'jsbi';
 

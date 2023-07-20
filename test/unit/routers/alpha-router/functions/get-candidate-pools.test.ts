@@ -1,4 +1,4 @@
-import { ChainId, Token, TradeType } from '@uniswap/sdk-core';
+import { ChainId, Token, TradeType } from '@thinkincoin/sdk-core';
 import { encodeSqrtRatioX96, FeeAmount, Pool } from '@thinkincoin-libs/uniswap-v3-sdk';
 import _ from 'lodash';
 import sinon from 'sinon';

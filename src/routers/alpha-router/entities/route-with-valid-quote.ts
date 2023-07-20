@@ -1,6 +1,6 @@
 import { BigNumber } from '@ethersproject/bignumber';
 import { Protocol } from '@thinkincoin/router-sdk';
-import { Token, TradeType } from '@uniswap/sdk-core';
+import { Token, TradeType } from '@thinkincoin/sdk-core';
 import { Pool } from '@thinkincoin-libs/uniswap-v3-sdk';
 import _ from 'lodash';
 

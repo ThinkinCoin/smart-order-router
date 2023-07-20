@@ -1,6 +1,6 @@
 import { JsonRpcProvider } from '@ethersproject/providers';
 import { Trade } from '@thinkincoin/router-sdk';
-import { ChainId, Percent, TradeType } from '@uniswap/sdk-core';
+import { ChainId, Percent, TradeType } from '@thinkincoin/sdk-core';
 import { BigNumber } from 'ethers';
 import sinon from 'sinon';
 import {

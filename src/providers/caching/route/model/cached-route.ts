@@ -1,5 +1,5 @@
 import { Protocol } from '@thinkincoin/router-sdk';
-import { Token } from '@uniswap/sdk-core';
+import { Token } from '@thinkincoin/sdk-core';
 
 import { MixedRoute, V2Route, V3Route } from '../../../../routers';
 

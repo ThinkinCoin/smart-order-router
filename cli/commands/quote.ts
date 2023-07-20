@@ -1,7 +1,7 @@
 import { Logger } from '@ethersproject/logger';
 import { flags } from '@oclif/command';
 import { Protocol } from '@thinkincoin/router-sdk';
-import { Currency, Percent, TradeType } from '@uniswap/sdk-core';
+import { Currency, Percent, TradeType } from '@thinkincoin/sdk-core';
 import dotenv from 'dotenv';
 import _ from 'lodash';
 

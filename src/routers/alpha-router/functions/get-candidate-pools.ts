@@ -1,5 +1,5 @@
 import { Protocol } from '@thinkincoin/router-sdk';
-import {ChainId, Token, TradeType } from '@uniswap/sdk-core';
+import {ChainId, Token, TradeType } from '@thinkincoin/sdk-core';
 import { FeeAmount } from '@thinkincoin-libs/uniswap-v3-sdk';
 import _ from 'lodash';
 

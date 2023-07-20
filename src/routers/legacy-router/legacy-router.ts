@@ -1,7 +1,7 @@
 import { BigNumber } from '@ethersproject/bignumber';
 import { Logger } from '@ethersproject/logger';
 import { SwapRouter, Trade } from '@thinkincoin/router-sdk';
-import { ChainId, Currency, Token, TradeType } from '@uniswap/sdk-core';
+import { ChainId, Currency, Token, TradeType } from '@thinkincoin/sdk-core';
 import { FeeAmount, MethodParameters, Pool, Route } from '@thinkincoin-libs/uniswap-v3-sdk';
 import _ from 'lodash';
 
