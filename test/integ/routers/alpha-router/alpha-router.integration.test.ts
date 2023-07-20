@@ -2560,7 +2560,7 @@ describe('quote for other networks', () => {
     [ChainId.GNOSIS]: WBTC_GNOSIS,
     [ChainId.MOONBEAM]: WBTC_MOONBEAM,
     [ChainId.BNB]: USDC_BNB,
-    [ChainId.HARMONY]: USDC_HARMONY.
+    [ChainId.HARMONY]: USDC_HARMONY,
     [ChainId.AVALANCHE]: USDC_ON(ChainId.AVALANCHE),
     [ChainId.BASE]: USDC_ON(ChainId.BASE),
     [ChainId.BASE_GOERLI]: USDC_ON(ChainId.BASE_GOERLI),
@@ -2580,7 +2580,7 @@ describe('quote for other networks', () => {
     [ChainId.GNOSIS]: USDC_ETHEREUM_GNOSIS,
     [ChainId.MOONBEAM]: WBTC_MOONBEAM,
     [ChainId.BNB]: USDT_BNB,
-    [ChainId.HARMONY]: USDT_HARMONY.
+    [ChainId.HARMONY]: USDT_HARMONY,
     [ChainId.AVALANCHE]: DAI_ON(ChainId.AVALANCHE),
     [ChainId.BASE]: USDC_ON(ChainId.BASE),
     [ChainId.BASE_GOERLI]: USDC_ON(ChainId.BASE_GOERLI),
